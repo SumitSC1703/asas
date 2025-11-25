@@ -5,9 +5,10 @@ document.addEventListener("DOMContentLoaded", function() {
     downloadBtn.addEventListener("click", function(e) {
       e.preventDefault();
       const link = document.createElement("a");
-      link.href = "Sum.pdf"; // PDF file should be in the same folder
+      link.href = "sum.pdf"; // PDF file should be in the same folder
       link.download = "Sumit_Changoli_Resume.pdf";
       link.click();
     });
   }
+
 });
